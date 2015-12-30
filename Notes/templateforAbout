@@ -1,0 +1,151 @@
+<div id=''class='col-md-12 col-xs-12'style='border:1px solid black;padding:0.5%;height:95vh'>
+
+  <div id=''class='col-md-12'style='border:1px solid 
+  black;height:100%;position:relative;padding:4%;'>
+   
+  <!-- Status Screen Left -->
+   <div id='aboutStatusLeft'class='col-md-5'style='border:1px none;padding:0.5%;height:100%;'>
+   	<div id=''class='col-md-12'style='border:1px none;padding:1%;margin-bottom:4px;'>
+   		
+   		<!-- Personal Info -->
+   		<span class='col-md-12'style='border-bottom:1px solid black;padding:0;'><p style='float:right;margin:0;'>Status</p></span>
+   		<div id=''class='col-md-9 col-md-offset-3'style='border:1px none;padding:0;'>
+   			<span class='col-md-7'id='aboutPersonName'style='float:left;'>Oscar Medrano</span> <span id='aboutPersonAge'style='float:right;text-align:right;'class='col-md-4'>27 Years Old</span>
+   			<br><br><br>
+   			<span id='aboutPersonLocation'style='margin-bottom:10px;'class='col-md-7'>New York</span>
+   			<div id='aboutPersonSocial'class='col-md-12'style='border:1px none;padding:0;'>
+   				<div id='github'style=''class='col-md-12'><span>HERE</span>Github<span style='float:right;'>User Name</span>
+
+   				</div>
+   				<div id='linkedin'style=''class='col-md-12'><span>HERE</span>LinkedIn<span style='float:right;'>User Name</span>
+
+
+  		 		</div>
+  			</div>
+  		</div>
+   
+
+   	 </div>
+   	 <!-- Equipment -->
+   	
+   	 <!-- Guitars -->
+   	 <div id=''class='col-md-12'style='border:1px none;padding:1%;margin-bottom:4px;'>
+   		<span class='col-md-12'style='border-bottom:1px solid black;padding:0;'><p style='float:right;margin:0;'>Applications and Enviroments</p></span>
+   		<div id=''class='col-md-9 col-md-offset-3'style='border:1px none;padding:0;'>
+   			<div id=''class='col-md-12'style=''>
+   				<span style='float:left;'>Adobe CS6</span>
+   				<div id=''class='col-md-12'style=''>
+   					<span style='float:left;'>Photoshop</span>
+   				</div>
+   				<div id=''class='col-md-12'style=''>
+   					<span style='float:left;'>Illustrator</span>
+   				</div>
+   				<div id=''class='col-md-12'style=''>
+   					<span style='float:left;'>Name</span>
+   				</div>
+   			</div>
+   			<div id=''class='col-md-12'style=''>
+   				<span style='float:left;'>Microsoft Office 2007</span>
+   			</div>
+   			<div id=''class='col-md-12'style=''>
+   				<span style='float:left;'>Git (source control)</span>
+   			</div>
+   			<div id=''class='col-md-12'style=''>
+   				<span style='float:left;'>Bash/General Unix command line</span>
+   			</div>
+   			<div id=''class='col-md-12'style=''>
+   				<span style='float:left;'>Windows and Ubuntu Distros</span>
+   			</div>
+   			<div id=''class='col-md-12'style=''>
+   				<span style='float:left;'>VmWare / VirtualBox</span>
+   			</div>
+
+   			
+   			
+  		</div>
+   
+
+   	 </div>
+   	 <!-- Skills -->
+   	 <div id=''class='col-md-12'style='border:1px none;padding:1%;margin-bottom:4px;'>
+   		<span class='col-md-12'style='border-bottom:1px solid black;padding:0;'><p style='float:right;margin:0;'>Languages</p></span>
+   		<div id=''class='col-md-9 col-md-offset-3'style='border:1px none;padding:0;padding-top:1%;'><span style=';'></span>
+   			<div id=''class='col-md-12'style='padding:0%;'>
+   				<div id=''class='col-md-12 skillDiv' style=''>
+   					<span style='float:left;'>Javascript</span><span style='float:right;'></span>
+   					<div id=''class='col-md-12'style='margin-top:0.5%;'>
+   						<span style='float:left;'class='col-md-8'>AngularJS</span><span style='float:right;'class='col-md-3'>2 years</span>
+
+   					</div>
+   					<div id=''class='col-md-12'style='margin-top:0.5%;'>
+   						<span style='float:left;'class='col-md-8'>NodeJS/Express</span><span style='float:right;'class='col-md-3'>1 year</span>
+
+   					</div>
+   					
+   				</div>
+   				<div id=''class='col-md-12 skillDiv' style='padding:0;margin-top:0.5%;'>
+   					<span style='float:left;'class='col-md-8'>Html/CSS</span><span style='float:right;'class='col-md-3'>4 years</span>
+   				</div>
+   			
+   				<div id=''class='col-md-12 skillDiv' style='padding:0;margin-top:0.5%;'>
+   					<span style='float:left;'class='col-md-8'>Ruby/RoR</span><span style='float:right;'class='col-md-3'>1 year</span>
+   				</div>
+   			</div>
+   			
+   			
+   			
+  		</div>
+   
+
+   	 </div>
+  	</div>  
+
+  	<div id='aboutStatusRight'class='col-md-5'style='border:1px none;padding:0.5%;height:100%;float:right'>
+   	<div id=''class='col-md-12'style='border:1px none;padding:1%;margin-bottom:4px;'>
+   		
+   		<!-- Work Info -->
+   		<span class='col-md-12'style='border-bottom:1px solid black;padding:0;'><p style='float:left;margin:0;'>Roles</p></span>
+   		<div id=''class='col-md-9 'style='border:1px none;padding:0;'>
+   			<div id=''class='col-md-12 workDiv'style=''>
+   				<span style='float:left'>Konditori</span><span style='float:right;'>Nov '13 - Present</span>
+   				<div id=''class='col-md-12'style=''>
+   					<span style='float:left;'>Barista (Keyholder) </span>
+   					<div id=''class='col-md-12'style=''>
+
+   					</div>
+   				</div>
+   			</div>
+   			<div id=''class='col-md-12 workDiv'style=''>
+   				<span style='float:left'>Work Location</span><span style='float:right;'>Time Worked</span>
+   				<div id=''class='col-md-12'style=''>
+   					Responsiblities
+   				</div>
+   			</div>
+   			<div id=''class='col-md-12 workDiv'style=''>
+   				<span style='float:left'>Work Location</span><span style='float:right;'>Time Worked</span>
+   				<div id=''class='col-md-12'style=''>
+   					Responsiblities
+   				</div>
+   			</div>
+  		</div>
+   
+
+   	 </div>
+   	 <!-- Education -->
+   	 <div id=''class='col-md-12'style='border:1px none;padding:1%;margin-bottom:4px;'>
+   		<span class='col-md-12'style='border-bottom:1px solid black;padding:0;'><p style='float:left;margin:0;'>Education</p></span>
+   		<div id=''class='col-md-9'style='border:1px none;padding:0;'>
+   			<div id=''class='col-md-12'style=''>
+   			<span style='float:left;'>Location</span><span style='float:right'>When</span>
+   			</div>
+  		</div>
+   
+
+   	 </div>
+   	
+   
+
+   	 </div>
+  	</div>  
+	</div>
+</div>
