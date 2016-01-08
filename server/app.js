@@ -4,7 +4,7 @@ var favicon = require('static-favicon');
 var logger = require('morgan');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
+var mongoose = require("mongoose");
 var routes = require('./routes/index');
 var users = require('./routes/users');
 
@@ -55,5 +55,21 @@ app.use(function(err, req, res, next) {
     });
 });
 
+mongoose.connect('mongodb://localhost/things');
 
+var thingModel = mongoose.model('Thing',{thing: String});
+app.get('/', function(req,res){
+    thingModel.find(function(err,things){
+        res.send(things);
+    });
+});
+app.post('/add', function(req,res){
+    var thing = req.body.thing;
+    var thingDoc = new thingModel({thing:thing});
+    thing.Doc.save(function(){
+        res.send();
+    });
+
+});
+app.listen(3000);
 module.exports = app;
