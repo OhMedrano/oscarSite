@@ -55,7 +55,7 @@ app.use(function(err, req, res, next) {
     });
 });
 
-mongoose.connect('mongodb://localhost/things');
+mongoose.connect('mongodb://localhost:3000/api/blog');
 
 var thingModel = mongoose.model('Thing',{thing: String});
 app.get('/', function(req,res){

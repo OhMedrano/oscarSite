@@ -28,10 +28,6 @@ angular
         templateUrl: 'views/about.html',
         controller: 'AboutCtrl'
       })
-      .when('/:id',{
-        templateUrl:'templates/postExpand.html',
-        controller:'TododetailCtrl'
-      })
       .otherwise({
         redirectTo: '/'
       });
