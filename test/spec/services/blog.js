@@ -1,18 +1,18 @@
 'use strict';
 
-describe('Service: Blog', function () {
+describe('Service: blog', function () {
 
   // load the service's module
   beforeEach(module('oscarSiteApp'));
 
   // instantiate service
-  var Blog;
-  beforeEach(inject(function (_Blog_) {
-    Blog = _Blog_;
+  var blog;
+  beforeEach(inject(function (_blog_) {
+    blog = _blog_;
   }));
 
   it('should do something', function () {
-    expect(!!Blog).toBe(true);
+    expect(!!blog).toBe(true);
   });
 
 });
