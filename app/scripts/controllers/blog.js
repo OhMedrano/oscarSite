@@ -8,8 +8,14 @@
  * Controller of the oscarSiteApp
  */
 angular.module('oscarSiteApp')
-  .controller('BlogCtrl',['$scope','blog' ,function ($scope, blog) {
-    $scope.blog = blog.query();
+  .controller('BlogCtrl',['$scope','Blog','$routeParams' ,function ($scope, $routeParams, Blog) {
+   $scope.find = function() {
+   	$scope.blogs = Blog.query();
+   };
 
-    console.log($scope.blog);
+   $scope.findOne = function(){
+   	$scope.blog = Blog.get({
+   		articleId: $routeParams.articleId
+   	});
+   };
   }]);
