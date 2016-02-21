@@ -8,12 +8,8 @@
  * Factory in the oscarSiteApp.
  */
 angular.module('oscarSiteApp')
-  .factory('Blog',['$resource',function($resource){
-  	return $resource('http://localhost:3000/api/articles/:articleId',{
-  		articleId:'@_id'
-  	}, {
-  		update: {
-  			method:'PUT'
-  		}
-  	});
-  }]);
+  .factory('Blog',function($resource){
+  	return $resource('http://localhost:3000/api/articles/',{
+  		query:{method:'GET',params:{blogId:'blogs'},isArray:true}
+  		});
+  });
