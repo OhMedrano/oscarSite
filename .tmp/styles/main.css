@@ -8809,4 +8809,7 @@ a :link, a :visited, a :hover, a :active {
   text-decoration: none;
 }
 
-/*# sourceMappingURL=main.css.map */
+/* line 101, ../../app/styles/main.scss */
+.blogFontSides {
+  font-family: 'Orbitron', sans-serif;
+}
