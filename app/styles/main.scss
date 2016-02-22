@@ -9,10 +9,27 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
   color: #000;
   padding: 0.2em 0;
 }
+/*#backImage {
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+}
 
+#backImage {
+  position:absolute;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+}*/
 body {
   padding: 0;
-  background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGklEQVQYlWOIKLshhQszIAMMAVxgWCkcOAAAxmkWwZZfFWUAAAAASUVORK5CYII=);
+  background:url(http://159.203.107.182:3000/img/desktopBackground.png) no-repeat, 
+    url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGklEQVQYlWOIKLshhQszIAMMAVxgWCkcOAAAxmkWwZZfFWUAAAAASUVORK5CYII=);
+    background-size:100% 108%, auto;
+  /*background-image:url(http://localhost:3000/img/desktopBackground.png);*/
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */

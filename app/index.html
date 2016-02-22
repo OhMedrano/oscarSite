@@ -16,11 +16,24 @@
     <!-- endbuild -->
   </head>
   <body ng-app="oscarSiteApp" style=''>
+   
+
     <!--[if lt IE 7]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
 
     <!-- Add your site or application content here -->
+
+    <!-- BACKGROUND IMAGES -->
+    <div id='backImage1'class=''style=''>
+
+    </div>
+    <div id='backImage2'class=''style=''>
+
+    </div>
+
+
+    <!-- MOBILE VIEW HERE -->
     <div class="header hidden-lg hidden-md" >
       <div class="navbar navbar-default" role="navigation" style='background-color:black;border:1px none;border-radius:0px;'>
         <div class="container">
@@ -47,22 +60,22 @@
         </div>
       </div>
     </div>
-
-    <div id=''class='col-md-2 hidden-sm hidden-xs'style='height:95vh;border:1px none;'>
+<!-- DESKTOP TABLET VIEW HERE -->
+    <div id=''class='col-md-4 hidden-sm hidden-xs'style='height:90vh;border:1px none;'>
 
     <div id='MenuLargeScreen'class='col-md-2'style='border:1px none;padding:1%;;position:fixed;
     top:0vh;;height:100%;'>
      
-      <div id=''class=''style='border:1px none;position:relative;top:10vh'>
+      <div id=''class=''style='border:1px none ;position:relative;top:10vh'>
         <div id=''class='col-md-12'style='border:1px none;margin-bottom:10%;position:relative;'>
-          <img src='http://localhost:3000/img/logo.png' style='margin:0;width:100%;;'/>
+          <img src='http://159.203.107.182:3000/img/logo.png' style='margin:0;width:180%;height:180%;'/>
         </div>
-        <div id='MenuLargeScreenLinks'class=''style='position:relative;top:60px;'>
+        <div id='MenuLargeScreenLinks'class=''style='position:relative;top:60px;border:'>
         <div id='MenuLargeScreenLinksTitle'class='col-md-12'style=''>
-          <h3>Title here</h3>
+          <h3></h3>
         </div>
-        <div id='MenuLargeScreenLinksMenu'class='col-md-12'style='border:1px none;color:black;position:relative;top:30px;'>
-         <ul class="col-md-12" style='list-style:none;font-size:20px;'>
+        <div id='MenuLargeScreenLinksMenu'class='col-md-12 col-md-offset-12'style='border:1px none;color:black;position:relative;top:30px; border:1px none;text-align:center;'>
+         <ul class="col-md-12" style='list-style:none;font-size:35px;'>
                 <li class="active"><a style='text-decoration:none;color:inherit;'href="#/">Blog</a></li>
                 <li><a style='text-decoration:none;color:inherit;'ng-href="#/about">About</a></li>
                 <li><a style='text-decoration:none;color:inherit;'ng-href="#/">Contact</a></li>
@@ -76,7 +89,7 @@
     <div ng-view=""></div>
     </div>
 
-    <div class="col-md-10 hidden-xs hidden-sm">
+    <div class="col-md-8 hidden-xs hidden-sm">
     <div ng-view=""></div>
     </div>
 
@@ -127,6 +140,7 @@
         <script src="scripts/services/blog.js"></script>
         <script src="scripts/controllers/blog.js"></script>
         <script src="scripts/filters/createdby.js"></script>
+        <script src="scripts/filters/linebreak.js"></script>
         <!-- endbuild -->
 </body>
 </html>
